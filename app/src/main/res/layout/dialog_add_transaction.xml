@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutEditCategory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTransactionCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:hint="@string/category"
+            android:inputType="text"
+            android:paddingTop="30dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutEditName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTransactionName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:hint="@string/name"
+            android:inputType="text"
+            android:paddingTop="30dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layoutEditCost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:hintTextAppearance="@style/TextAppearance.AppCompat.Small">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTransactionCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/white"
+            android:hint="@string/cost"
+            android:inputType="number"
+            android:paddingTop="30dp"
+            android:paddingBottom="5dp"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

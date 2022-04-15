@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">yhuo_zyicheng Budget Tracker</string>
+    <string name="add_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="view_transactions_button">Transactions</string>
+    <string name="clear_data_button">Clear Data</string>
+    <string name="add_transaction_title">Add Transaction</string>
+    <string name="all_transactions_title">All Transactions</string>
+    <string name="category">Category</string>
+    <string name="name">Name</string>
+    <string name="cost">Cost</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+</resources>
